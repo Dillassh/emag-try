@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="nav-bar">
+			<div class="nav-content">
+				<a href="https://emag.ro" rel="stylesheet"
+					><img class="logo" src="logo-emag.png" alt="logo" />
+				</a>
+				<div class="search-bar">
+					<input
+						type="text"
+						id="search-item"
+						name="query"
+						placeholder="Ai libertatea să alegi ce vrei"
+						autocomplete="off"
+						onkeyup="search()"
+					/>
+
+					<i class="material-icons">search</i>
+				</div>
+				<div class="menu-right">
+					<div class="contulMeu">
+						<a href="https://auth.emag.ro/user/login" rel="stylesheet">
+							<i class="material-icons">person_outline</i>Contul meu</a
+						>
+					</div>
+					<a
+						href="https://www.emag.ro/favorites?ref=ua_favorites"
+						rel="stylesheet"
+					>
+						<div class="favorite">
+							<i class="material-icons">favorite_border</i>Favorite
+						</div></a
+					>
+					<a href="https://www.emag.ro/cart/products?ref=cart" rel="stylesheet">
+						<div class="cosulMeu">
+							<i class="material-icons">shopping_cart</i>Cosul meu
+						</div></a
+					>
+				</div>
+			</div>
+		</div>
+
+		<div class="category-nav">
+            <div class="menu-products">
+			<div class="menu-left">
+				
+				
+				<a>Produse</a>
+				
+				<a>eMAG Genius<av>
+				<a>Oferta zilei</a>
+				<a>Ofertele momentului</a>
+				<a>Freshful</a>
+				<a>Resigilate</a>
+			</div>
+			<div class="get-help"> <a href="https://www.emag.ro/help/?ref=hdr_help">eMAG Help</a></div>
+			</div>
+			</div>
+        </div>
+
+        <div class="menu-comercials">
+            <div class="categories">
+                <a href="https://google.ro"> <i class="material-icons">phone_iphone</i> Laptop,Tablete & Telefoane </a>
+				<a href="https://google.ro"> <i class="material-icons">mouse</i> PC,Periferice & Software</a>
+				<a href="https://google.ro"> <i class="material-icons">tv</i> TV,Audio-Video & Foto</a>
+				<a href="https://google.ro"> <i class="material-icons">ac_unit</i> Electrocasnice & Climatizare</a>
+				<a href="https://google.ro"> <i class="material-icons">videogame_asset</i> Gaming,Carti & Birotica</a>
+				<a href="https://google.ro"> <i class="material-icons">card_travel</i> Bacanie</a>
+				<a href="https://google.ro"> <i class="material-icons">person</i> Fashion</a>
+				<a href="https://google.ro"> <i class="material-icons">spa</i> Ingrijire Personala & Cosmetice</a>
+				<a href="https://google.ro"> <i class="material-icons">event_seat</i> Casa,Gradina & Bricolaj</a>
+				<a href="https://google.ro"> <i class="material-icons">style</i> Sport & Activitati in aer liber</a>
+				<a href="https://google.ro"> <i class="material-icons">toys</i> Auto,Moto & RCA</a>
+				<a href="https://google.ro"> <i class="material-icons">child_care</i> Jucarii,Copii & Bebe</a></div>
+            <div class="comercials"><img src="reclama.png" alt="reclama-rabla"></div>
+        </div>
+
+
+
+       <div class="basic-container">
+			<ol id="products"></ol>
+
+			<div class="container_products" id="product-list">
+				<div class="card">
+					<h2>Numele produsului</h2>
+					<p class="description">Descriere mai detaliata a produsului</p>
+					<p class="price">Pret produs</p>
+
+					<p class="category">Categorie produs</p>
+				</div>
+				
+			</div>
+		<script src="index.js"></script>
+	</body>
+</html>
